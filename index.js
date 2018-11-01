@@ -47,11 +47,6 @@ function fillInMovieData() {
     
   }
   
-   for (let review of currentMovie.reviews) {
-    const li = document.createElement('li')
-    li.innerText = review.username + ': ' + review.content
-    const div = document.querySelector('#reviews')
-    div.appendChild(li)
-}
+  
 }
 
