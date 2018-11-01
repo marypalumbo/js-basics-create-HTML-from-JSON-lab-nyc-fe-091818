@@ -21,5 +21,10 @@ function fillInMovieData() {
  const genreDiv = document.querySelector('#genre')
  genreDiv.innerText = genre
  
+ const genre = movies['Titanic'].genre
+ const genreDiv = document.querySelector('#genre')
+ genreDiv.innerText = genre
+ 
+ 
 }
 
