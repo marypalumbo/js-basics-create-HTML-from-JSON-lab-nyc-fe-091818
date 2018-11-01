@@ -9,6 +9,6 @@ document.addEventListener("DOMContentLoaded", (e) => {
 });
 
 function fillInMovieData() {
-  console.log(movies)
+  console.log(movies['Titanic'].title)
   
 }
