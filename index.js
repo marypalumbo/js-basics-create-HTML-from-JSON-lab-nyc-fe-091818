@@ -55,6 +55,4 @@ function fillInMovieData() {
     const div = document.querySelector('#reviews')
     div.appendChild(li)
 }
- 
-}
 
