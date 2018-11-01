@@ -39,6 +39,12 @@ function fillInMovieData() {
   const audienceScoreDiv = document.querySelector('#audienceScore')
   audienceScoreDiv.innerText = audienceScore
   
+  //clear out old cast members
+  const castDiv = document.querySelector('#cast')
+  while (castDiv.hasChildNodes()) {
+  castDiv.removeChild(castDiv.firstChild)
+  }
+  
   for (let castMember of currentMovie.cast) {
     const li = document.createElement('li')
     li.innerText = castMember.role + ': ' + castMember.actor
