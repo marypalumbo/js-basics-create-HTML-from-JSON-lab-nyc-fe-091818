@@ -8,4 +8,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
   
 });
 
-function fillInMovieData()
+function fillInMovieData() {
+  console.log(movies)
+  
+}
