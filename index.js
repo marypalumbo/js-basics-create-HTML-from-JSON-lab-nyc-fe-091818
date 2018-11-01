@@ -28,7 +28,7 @@ function fillInMovieData() {
  filmRatingDiv.innerText = filmRating
  
  const poster = currentMovie.poster
- const posterDiv = document.querySelector('#poster')
+ const posterImg = document.querySelector('#poster')
  posterDiv.src = poster
  
 }
