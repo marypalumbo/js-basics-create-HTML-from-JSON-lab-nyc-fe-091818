@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
   const titanicButton = document.querySelector('#Titanic')
   const terminatorButton = document.querySelector('#Terminator-2')
   
-  titanic.Button.addEventListener('click', fillInMovieData)
+  titanicButton.addEventListener('click', fillInMovieData)
   
 });
 
