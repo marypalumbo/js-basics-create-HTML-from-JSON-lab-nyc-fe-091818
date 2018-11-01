@@ -15,6 +15,6 @@ function fillInMovieData() {
 
  const director = movies['Titanic'].director
  const directorDiv = document.querySelector('#director')
-  titleDiv.innerText = director
+ directorDiv.innerText = director
 }
 
