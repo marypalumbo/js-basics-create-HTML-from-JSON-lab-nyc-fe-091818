@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
   
   titanicButton.addEventListener('click', () => fillInMovieData('Titanic'))
   terminatorButton.addEventListener('click', () => fillInMovieData('Terminator-2'));
-}
+});
 
 function fillInMovieData() {
   const currentMovie = movies[movie]
