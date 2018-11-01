@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
 });
 
 function fillInMovieData() {
-  const currentMovie = movies['Titanic']
+  const currentMovie = movies[movie]
   
   const title = currentMovie.title // "Titanic"
   const titleDiv = document.querySelector('#title')
