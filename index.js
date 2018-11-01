@@ -38,6 +38,8 @@ function fillInMovieData() {
   const audienceScore = currentMovie.audienceScore
   const audienceScoreDiv = document.querySelector('#audienceScore')
   audienceScoreDiv.innerText = audienceScore
+  
+  for 
  
 }
 
