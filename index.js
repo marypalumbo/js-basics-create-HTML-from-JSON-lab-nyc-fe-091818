@@ -15,25 +15,25 @@ function fillInMovieData() {
   const titleDiv = document.querySelector('#title')
   titleDiv.innerText = title
 
- const director = currentMovie.director
- const directorDiv = document.querySelector('#director')
- directorDiv.innerText = director
+  const director = currentMovie.director
+  const directorDiv = document.querySelector('#director')
+  directorDiv.innerText = director
  
- const genre = currentMovie.genre
- const genreDiv = document.querySelector('#genre')
- genreDiv.innerText = genre
+  const genre = currentMovie.genre
+  const genreDiv = document.querySelector('#genre')
+  genreDiv.innerText = genre
  
- const filmRating = currentMovie.filmRating
- const filmRatingDiv = document.querySelector('#filmRating')
- filmRatingDiv.innerText = filmRating
+  const filmRating = currentMovie.filmRating
+  const filmRatingDiv = document.querySelector('#filmRating')
+  filmRatingDiv.innerText = filmRating
  
- const poster = currentMovie.poster
- const posterImg = document.querySelector('#poster')
- posterImg.src = poster
+  const poster = currentMovie.poster
+  const posterImg = document.querySelector('#poster')
+  posterImg.src = poster
  
- const description = currentMovie.description
- const descriptionDiv = document.querySelector('#description')
- descriptionDiv.innerText = description
+  const description = currentMovie.description
+  const descriptionDiv = document.querySelector('#description')
+  descriptionDiv.innerText = description
  
   const audienceScore = currentMovie.audienceScore
   const audienceScoreDiv = document.querySelector('#audienceScore')
@@ -45,6 +45,8 @@ function fillInMovieData() {
     li.innerText = castMember.role + ': ' + castMember.actor
     const div = document.querySelector('#cast')
     div.appendChild(li)
+    
+  
     
   }
  
