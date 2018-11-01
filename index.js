@@ -29,7 +29,7 @@ function fillInMovieData() {
  
  const poster = currentMovie.poster
  const posterImg = document.querySelector('#poster')
- posterDiv.src = poster
+ posterImg.src = poster
  
 }
 
