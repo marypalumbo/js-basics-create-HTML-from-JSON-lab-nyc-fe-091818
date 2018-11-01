@@ -40,6 +40,9 @@ function fillInMovieData() {
   audienceScoreDiv.innerText = audienceScore
   
   for (let castMember of currentMovie.cast) {
+    const li = document.createElement('li')
+    // <li></li>
+    li.innerText = castMember.role + ': ' + castMember.actor
     
   }
  
