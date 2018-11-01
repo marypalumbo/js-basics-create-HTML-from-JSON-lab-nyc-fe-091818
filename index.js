@@ -31,5 +31,13 @@ function fillInMovieData() {
  const posterImg = document.querySelector('#poster')
  posterImg.src = poster
  
+ const description = currentMovie.description
+ const descriptionDiv = document.querySelector('#description')
+ descriptionDiv.innerText = description
+ 
+  const audienceScore = currentMovie.audienceScore
+  const audienceScoreDiv = document.querySelector('#audienceScore')
+  audienceScoreDiv.innerText = audienceScore
+ 
 }
 
